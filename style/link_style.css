@@ -1,0 +1,91 @@
+/*Déclaration des polices */
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter-VariableFont_opsz,wght.ttf")
+         format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter-Italic-VariableFont_opsz,wght.ttf")
+         format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+
+/* Style pour les boutons du menu */
+/* Pour le primary */
+a {
+    border: 1px solid #e5a04b;
+    color: #e5a04b;
+    border-radius: 999px;
+    padding: .7rem 1.3rem;
+    font-size: .86rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background .16s, color .16s, border-color .16s;
+    display: inline-block;
+}
+
+a.primary {
+    border-color: #e5a04b;
+    color: #e5a04b;
+}
+
+a.primary:hover {
+    background: #e5a04b;
+    color: #000000;
+    border-color: #e5a04b;
+}
+
+a.primary:active {
+    background: #d9913c;
+    border-color: #d9913c;
+}
+
+/* Style pour les boutons du menu */
+/* Pour les second */
+
+a.second {
+    border-color: #494949;
+    color: #ffffff;
+}
+
+a.second:hover {
+    background: #ffffff;
+    color: #000000;
+    border-color: #494949;
+}
+
+a.second:active {
+    background: #d9913c;
+    border-color: #d9913c;
+}
+
+/* Polices de caractere ett */
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    letter-spacing: -0.085em;
+}
+
+/* Style "Sombre" du site */
+body
+{
+    background-color: #181513;
+    color: #EBE6DD;
+}
+
+/* Pour le ptit truc en orange et plus */
+.orange {
+    color: #e5a04b;
+}
