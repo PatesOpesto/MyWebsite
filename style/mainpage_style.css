@@ -51,3 +51,56 @@
   "nav sec sec sec";
 }
 */ 
+
+
+/*
+.bouton {
+    display: inline-block;
+    background-color: #00aaff00;
+    color: #cc6900;
+    padding: 12px 24px;
+    border: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.bouton:hover {
+    background-color: #cc6900;
+}
+
+*/
+
+
+
+
+
+
+
+
+a {
+    border: 1px solid #e5a04b;
+    color: #e5a04b;
+    border-radius: 999px;
+    padding: .7rem 1.3rem;
+    font-size: .86rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background .16s, color .16s, border-color .16s;
+    display: inline-block;
+}
+
+a.primary {
+    border-color: #e5a04b;
+    color: #e5a04b;
+}
+
+a.primary:hover {
+    background: #e5a04b;
+    color: #ffffff;
+    border-color: #e5a04b;
+}
+
+a.primary:active {
+    background: #d9913c;
+    border-color: #d9913c;
+}
