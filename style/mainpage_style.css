@@ -18,8 +18,8 @@
 /* Style pour les boutons du menu */
 /* Pour le primary */
 a {
-    border: 1px solid #e5a04b;
-    color: #e5a04b;
+    border: 1px solid #DE7D00;
+    color: #DE7D00;
     border-radius: 999px;
     padding: .7rem 1.3rem;
     font-size: .86rem;
@@ -30,19 +30,19 @@ a {
 }
 
 a.primary {
-    border-color: #e5a04b;
-    color: #e5a04b;
+    border-color: #DE7D00;
+    color: #DE7D00;
 }
 
 a.primary:hover {
-    background: #e5a04b;
+    background: #DE7D00;
     color: #000000;
-    border-color: #e5a04b;
+    border-color: #DE7D00;
 }
 
 a.primary:active {
-    background: #d9913c;
-    border-color: #d9913c;
+    background: #DE7D00;
+    border-color: #DE7D00;
 }
 
 /* Style pour les boutons du menu */
@@ -50,18 +50,18 @@ a.primary:active {
 
 a.second {
     border-color: #494949;
-    color: #ffffff;
+    color: #EBE6DD;
 }
 
 a.second:hover {
-    background: #ffffff;
+    background: #EBE6DD;
     color: #000000;
     border-color: #494949;
 }
 
 a.second:active {
-    background: #d9913c;
-    border-color: #d9913c;
+    background: #DE7D00;
+    border-color: #DE7D00;
 }
 
 /* Polices de caractere ett */
@@ -77,7 +77,7 @@ h1 {
 }
 
 h4 {
-    color: #e5a04b;
+    color: #DE7D00;
 }
 
 
@@ -90,5 +90,41 @@ body
 
 /* Pour le ptit truc en orange et plus */
 .orange {
-    color: #e5a04b;
+    color: #DE7D00;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #494949;
+}
+
+/* Lignes horizontales */
+h3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #c4c0b5;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+h3 span {
+    color: #DE7D00;
+}
+
+h3 hr {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid #393630;
+}
+
+/* Surlignage orange stylé */
+::selection {
+    background:#DE7D00;
+    color: #1a1a1a;
+}
+
+::-moz-selection {
+    background: #DE7D00;
+    color: #1a1a1a;
 }
