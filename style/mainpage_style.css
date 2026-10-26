@@ -146,9 +146,6 @@ h3 hr {
     gap: 20px;
 }
 
-.nav {
-    grid-area: na;
-}
 
 .header {
     grid-area: he;
