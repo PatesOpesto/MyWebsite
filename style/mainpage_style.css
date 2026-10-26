@@ -17,7 +17,7 @@
 
 /* Style pour les boutons du menu */
 /* Pour le primary */
-a {
+a.primary {
     border: 1px solid #DE7D00;
     color: #DE7D00;
     border-radius: 999px;
@@ -27,9 +27,6 @@ a {
     text-decoration: none;
     transition: background .16s, color .16s, border-color .16s;
     display: inline-block;
-}
-
-a.primary {
     border-color: #DE7D00;
     color: #DE7D00;
 }
@@ -47,8 +44,16 @@ a.primary:active {
 
 /* Style pour les boutons du menu */
 /* Pour les second */
-
 a.second {
+    border: 1px solid #DE7D00;
+    color: #DE7D00;
+    border-radius: 999px;
+    padding: .7rem 1.3rem;
+    font-size: .86rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background .16s, color .16s, border-color .16s;
+    display: inline-block;
     border-color: #494949;
     color: #EBE6DD;
 }
@@ -64,6 +69,15 @@ a.second:active {
     border-color: #DE7D00;
 }
 
+/* Pour les third */
+a.third {
+    text-decoration: none;
+    color: #494949;
+}
+
+a.third:hover {
+    color: #DE7D00; 
+}
 /* Polices de caractere ett */
 
 body {
@@ -137,12 +151,12 @@ h3 hr {
 /* wrapper header aside footer nav */
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr 3fr 1fr; 
+    grid-template-columns: 1fr 4fr 4fr 1fr; 
     grid-template-areas:
     ". he he ."   
     ". co co ."   
     ". co co ."   
-    ". co co .";  
+    "fo fo fo fo";  
     gap: 20px;
 }
 
@@ -153,4 +167,17 @@ h3 hr {
 
 .content {
     grid-area: co;
+}
+
+.footer {
+    text-align: center;
+    grid-area: fo;
+    margin-bottom: 50px;
+
+    align-content: center;
+}
+
+/* pour le bouton footer */
+html {
+    scroll-behavior: smooth;
 }
