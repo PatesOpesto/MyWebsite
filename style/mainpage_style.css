@@ -1,4 +1,7 @@
 /*Déclaration des polices */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @font-face {
     font-family: "Inter";
     src: url("./fonts/Inter-VariableFont_opsz,wght.ttf")
@@ -7,13 +10,15 @@
     font-style: normal;
 }
 
+
 @font-face {
-    font-family: "Inter";
-    src: url("./fonts/Inter-Italic-VariableFont_opsz,wght.ttf")
+    font-family: "Mono";
+    src: url("./fonts/SpaceMono-Regular")
          format("truetype");
     font-weight: 100 900;
-    font-style: italic;
+    font-style: normal;
 }
+
 
 /* Style pour les boutons du menu */
 /* Pour le primary */
@@ -76,13 +81,18 @@ a.third {
 }
 
 a.third:hover {
+    text-decoration: underline;
     color: #DE7D00; 
 }
 /* Polices de caractere ett */
+/*
+body {
+    font-family: 'Space Mono', monospace;
+}*/
 
 body {
-    font-family: "Inter", sans-serif;
-}
+    font-family: 'Inter', sans-serif;
+} 
 
 h1 {
     font-weight: 900;
@@ -160,7 +170,6 @@ h3 hr {
     gap: 20px;
 }
 
-
 .header {
     grid-area: he;
 }
@@ -172,8 +181,8 @@ h3 hr {
 .footer {
     text-align: center;
     grid-area: fo;
-    margin-bottom: 50px;
-
+    margin-top: 50px;
+    margin-bottom: 0px;
     align-content: center;
 }
 
