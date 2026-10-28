@@ -1,6 +1,5 @@
 /*Déclaration des polices */
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Space+Mono:wght@400;700&display=swap');
 
 @font-face {
     font-family: "Inter";
@@ -34,6 +33,7 @@ a.primary {
     display: inline-block;
     border-color: #DE7D00;
     color: #DE7D00;
+    font-family: "Space Mono", monospace;
 }
 
 a.primary:hover {
@@ -60,11 +60,12 @@ a.second {
     transition: background .16s, color .16s, border-color .16s;
     display: inline-block;
     border-color: #494949;
-    color: #EBE6DD;
+    color: #ffffff;
+    font-family: "Space Mono", monospace;
 }
 
 a.second:hover {
-    background: #EBE6DD;
+    background: #ffffff;
     color: #000000;
     border-color: #494949;
 }
@@ -78,12 +79,14 @@ a.second:active {
 a.third {
     text-decoration: none;
     color: #494949;
+    font-family: "Space Mono", monospace;
 }
 
 a.third:hover {
     text-decoration: underline;
     color: #DE7D00; 
 }
+
 /* Polices de caractere ett */
 /*
 body {
@@ -94,13 +97,15 @@ body {
     font-family: 'Inter', sans-serif;
 } 
 
-h1 {
+.titre {
     font-weight: 900;
     font-size: 5rem;
-    letter-spacing: -0.085em;
+    letter-spacing: -0.055em;
+    word-spacing: 0.05em;
 }
 
-h4 {
+.space {
+    font-family: "Space Mono", monospace;
     color: #DE7D00;
 }
 
@@ -109,7 +114,7 @@ h4 {
 body
 {
     background-color: #181513;
-    color: #EBE6DD;
+    color: #ffffff;
 }
 
 /* Pour le ptit truc en orange et plus */
@@ -131,6 +136,18 @@ h3 {
     font-size: 12px;
     letter-spacing: 3px;
 }
+
+h4 {
+    color: #494949;
+}
+
+h4:hover {
+    color: #DE7D00; 
+}
+
+
+
+
 
 h3 span {
     color: #DE7D00;
@@ -155,7 +172,7 @@ h3 hr {
 
 /* Espaces ett */
 .space { 
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 /* wrapper header aside footer nav */
@@ -216,6 +233,10 @@ html {
     border: 1px solid #494949;
     border-radius: 12px;
     padding: 1.5rem;
-    color: #EBE6DD;
+    color: #ffffff;
     margin-bottom: 1rem;
+}
+
+.card.a {
+    font-family: "Space Mono", monospace;
 }
