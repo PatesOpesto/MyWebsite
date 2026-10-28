@@ -170,6 +170,26 @@ h3 hr {
     gap: 20px;
 }
 
+.wrapperlink {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr; 
+    grid-template-areas:
+    ". he he ."   
+    ". co co ."   
+    ". co co ."   
+    "fo fo fo fo";  
+    gap: 20px;
+}
+
+.card {
+    grid-area: car;
+}
+
+.card2 {
+    grid-area: car2;
+}
+
+
 .header {
     grid-area: he;
 }
@@ -189,4 +209,13 @@ h3 hr {
 /* pour le bouton footer */
 html {
     scroll-behavior: smooth;
+}
+
+/* ========================= Pour link ======================= */
+.card {
+    border: 1px solid #494949;
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: #EBE6DD;
+    margin-bottom: 1rem;
 }
