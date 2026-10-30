@@ -240,3 +240,16 @@ html {
 .card.a {
     font-family: "Space Mono", monospace;
 }
+
+
+
+table {
+    margin: 0 auto;
+    width: 70%;
+    table-layout: fixed;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
