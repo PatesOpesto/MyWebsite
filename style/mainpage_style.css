@@ -104,6 +104,13 @@ body {
     word-spacing: 0.05em;
 }
 
+.titre2 {
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: -0.055em;
+    word-spacing: 0.05em;
+}
+
 .space {
     font-family: "Space Mono", monospace;
     color: #DE7D00;
