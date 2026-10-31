@@ -9,7 +9,6 @@
     font-style: normal;
 }
 
-
 @font-face {
     font-family: "Mono";
     src: url("./fonts/SpaceMono-Regular")
@@ -17,7 +16,6 @@
     font-weight: 100 900;
     font-style: normal;
 }
-
 
 /* Style pour les boutons du menu */
 /* Pour le primary */
