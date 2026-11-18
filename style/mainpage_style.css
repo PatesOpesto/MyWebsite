@@ -1,24 +1,26 @@
 /*Déclaration des polices */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Space+Mono:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Space+Mono:wght@400;700&display=swap');
 @font-face {
     font-family: "Inter";
-    src: url("./fonts/Inter-VariableFont_opsz,wght.ttf")
-         format("truetype");
+    src: url("./fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Mono";
-    src: url("./fonts/SpaceMono-Regular")
-         format("truetype");
+    src: url("./fonts/SpaceMono-Regular") format("truetype");
     font-weight: 100 900;
     font-style: normal;
 }
 
+
 /* Style pour les boutons du menu */
+
+
 /* Pour le primary */
+
 a.primary {
     border: 1px solid #DE7D00;
     color: #DE7D00;
@@ -45,8 +47,12 @@ a.primary:active {
     border-color: #DE7D00;
 }
 
+
 /* Style pour les boutons du menu */
+
+
 /* Pour les second */
+
 a.second {
     border: 1px solid #DE7D00;
     color: #DE7D00;
@@ -73,7 +79,9 @@ a.second:active {
     border-color: #DE7D00;
 }
 
+
 /* Pour les third */
+
 a.third {
     text-decoration: none;
     color: #494949;
@@ -82,10 +90,13 @@ a.third {
 
 a.third:hover {
     text-decoration: underline;
-    color: #DE7D00; 
+    color: #DE7D00;
 }
 
+
 /* Polices de caractere ett */
+
+
 /*
 body {
     font-family: 'Space Mono', monospace;
@@ -93,7 +104,7 @@ body {
 
 body {
     font-family: 'Inter', sans-serif;
-} 
+}
 
 .titre {
     font-weight: 900;
@@ -116,13 +127,15 @@ body {
 
 
 /* Style "Sombre" du site */
-body
-{
+
+body {
     background-color: #181513;
     color: #ffffff;
 }
 
+
 /* Pour le ptit truc en orange et plus */
+
 .orange {
     color: #DE7D00;
 }
@@ -132,7 +145,9 @@ hr {
     border-top: 2px solid #494949;
 }
 
+
 /* Lignes horizontales */
+
 h3 {
     display: flex;
     align-items: center;
@@ -147,12 +162,8 @@ h4 {
 }
 
 h4:hover {
-    color: #DE7D00; 
+    color: #DE7D00;
 }
-
-
-
-
 
 h3 span {
     color: #DE7D00;
@@ -164,9 +175,11 @@ h3 hr {
     border-top: 1px solid #393630;
 }
 
+
 /* Surlignage orange stylé */
+
 ::selection {
-    background:#DE7D00;
+    background: #DE7D00;
     color: #1a1a1a;
 }
 
@@ -175,31 +188,27 @@ h3 hr {
     color: #1a1a1a;
 }
 
+
 /* Espaces ett */
-.space { 
+
+.space {
     margin-top: 80px;
 }
 
+
 /* wrapper header aside footer nav */
+
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 4fr 4fr 1fr; 
-    grid-template-areas:
-    ". he he ."   
-    ". co co ."   
-    ". co co ."   
-    "fo fo fo fo";  
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-areas: ". he he ." ". co co ." ". co co ." "fo fo fo fo";
     gap: 20px;
 }
 
 .wrapperlink {
     display: grid;
-    grid-template-columns: 1fr 4fr 4fr 1fr; 
-    grid-template-areas:
-    ". he he ."   
-    ". co co ."   
-    ". co co ."   
-    "fo fo fo fo";  
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-areas: ". he he ." ". co co ." ". co co ." "fo fo fo fo";
     gap: 20px;
 }
 
@@ -210,7 +219,6 @@ h3 hr {
 .card2 {
     grid-area: car2;
 }
-
 
 .header {
     grid-area: he;
@@ -228,12 +236,16 @@ h3 hr {
     align-content: center;
 }
 
+
 /* pour le bouton footer */
+
 html {
     scroll-behavior: smooth;
 }
 
+
 /* ========================= Pour link ======================= */
+
 .card {
     border: 1px solid #494949;
     border-radius: 12px;
